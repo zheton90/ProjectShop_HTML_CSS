@@ -21,7 +21,7 @@ body {
 
 .wrap {
   max-width: 1140px;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   margin: 0 auto;
 }
 
