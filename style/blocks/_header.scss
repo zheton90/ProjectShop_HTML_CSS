@@ -1,0 +1,74 @@
+
+.header{
+    background-color:#222222;
+    color: white;
+    padding: 19px 0;
+}
+
+.header_wrap{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+
+.header_left{
+    display:flex;
+    align-items: flex-end;
+    column-gap: 21px;
+}
+
+.header_right{
+    display: flex;
+    align-items: flex-end;
+    column-gap: 33px;
+}
+
+.icon_logo{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transition: transform 1s;
+    
+    &:hover{
+        transform: rotate(180deg) scale(1.2);
+    }
+}
+
+.header_button{
+background-color: transparent;
+border: none;
+fill:white;
+
+    &:hover{
+    background-color: transparent;
+    border: none;
+    fill:#F16D7F;
+    }
+}
+
+.header_icon{
+    fill:white;
+
+    &:hover{
+        fill:#F16D7F;
+    }
+}
+
+.basket_icon{
+    position: relative;
+}
+
+.basket_number{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F16D7F;
+    color: #E1E1E1;
+    font-size: 12px;
+}
